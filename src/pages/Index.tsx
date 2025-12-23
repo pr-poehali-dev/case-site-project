@@ -180,7 +180,7 @@ const rarityColors = {
 
 function Index() {
   const [activeTab, setActiveTab] = useState('cases');
-  const [userBalance, setUserBalance] = useState(5000);
+  const [userBalance, setUserBalance] = useState(0);
   const [selectedCase, setSelectedCase] = useState<GameCase | null>(null);
   const [isOpening, setIsOpening] = useState(false);
   const [wonItem, setWonItem] = useState<CaseItem | null>(null);
